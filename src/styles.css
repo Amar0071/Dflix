@@ -1,0 +1,107 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+.Navbar {
+  color: #fefe;
+  display: flex;
+  position: absolute;
+  background-color: #2b283a;
+  width: 1550px;
+  height: 225px;
+}
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 75px;
+  fill: orangered;
+}
+
+.Navbar > p {
+  position: absolute;
+  top: 25px;
+  left: 110px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 65px;
+  font-size: x-large;
+}
+
+.Nav {
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  top: 26px;
+  left: 430px;
+}
+
+.button > button {
+  width: 73px;
+  position: absolute;
+  top: 24px;
+  left: 1400px;
+  border-radius: 6px;
+  height: 30px;
+  background-color: #2b283a;
+  padding-left: 19px;
+}
+.human--logo {
+  width: 10px;
+  position: absolute;
+  right: 54px;
+  top: 1px;
+  fill: #fefefe;
+}
+.login {
+  position: absolute;
+  color: #fefefe;
+  right: 15px;
+}
+
+.sentence {
+  position: absolute;
+  top: 130px;
+  left: 600px;
+  font-size: 35px;
+}
+
+.searchbox {
+  position: absolute;
+  top: 190px;
+  height: 60px;
+  left: 320px;
+  width: 860px;
+  border-radius: 26px;
+}
+
+::placeholder {
+  position: relative;
+  top: 6px;
+  padding-left: 60px;
+  color: gray;
+  font-weight: -100;
+  font-size: 25px;
+}
+
+.search-logo {
+  position: absolute;
+  top: 210px;
+  left: 310px;
+}
+
+.roundBtn {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background-color: yellow;
+  position: absolute;
+  top: 190px;
+  left: 1200px;
+}
+
+.arrow {
+}
